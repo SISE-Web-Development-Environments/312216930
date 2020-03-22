@@ -1,20 +1,26 @@
 body{
-	font-family: Arial,Tahoma,Century gothic, sans-serif;
+  font-family: Arial,Tahoma,Century gothic, sans-serif;
+  margin-top: 10px;
+  height: auto;
 }
 
 #topcover
-{	  
+{	
+  top: 0;
+  position: fixed;
 	list-style-type: none;
-    color: #333;
-	background: #000 repeat-y;    
-	margin: 0 auto;
-    padding: 0px 0px;
-	width: 720px;
-    font-size: 16px;
-	font-weight: bold;
-    height: 50px;   
+	background: #000 repeat-y;
+  padding: 10px 16px;
+  font-size: 16px;
+	font-weight: bold; 
+  width: 100%; 
 }
+section{
+  padding: 40px;
+}
+
 li {
+  border-right:1px solid white;
   float: left;
 }
 
@@ -22,14 +28,14 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
 }
+
 div.gallery {
-  margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 180px;  
 }
 
 div.gallery:hover {
@@ -38,19 +44,25 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
 }
 
-div.desc {
-  padding: 15px;
+h1 {
   text-align: center;
+  color: white;
+  background: #333 repeat-y; 
 }
 
 #about
 {
-	font-size: 18px;
+  font-size: 18px;
+  text-align: center;
+
 }
 #photos
 {
-	height: 380px;   
+  height: 380px; 
+}
+#playlist{
+  text-align: center;
+
 }
