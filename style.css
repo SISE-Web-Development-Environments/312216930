@@ -19,6 +19,8 @@ body{
 }
 iframe{
   text-align: center;
+  border: 1px solid #ccc;
+
 }
 
 img {
@@ -57,12 +59,13 @@ div.gallery img {
 
 h1 {
   text-align: center;
-  color: white;
-  background: #333 repeat-y; 
+  color: black;
+  background: white; 
 }
 
 #about
 {
+  color: white;
   padding: 40px;
   font-size: 18px;
   text-align: center;
@@ -74,7 +77,6 @@ h1 {
 }
 #playlist{
   text-align: center;
-
 }
 section {
   display: block;
