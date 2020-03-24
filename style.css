@@ -1,9 +1,9 @@
 body{
+  background-image: url("background.gif");
   font-family: Arial,Tahoma,Century gothic, sans-serif;
   margin-top: 10px;
   height: auto;
   background-size: cover;
-
 }
 
 #topcover
@@ -75,4 +75,7 @@ h1 {
 #playlist{
   text-align: center;
 
+}
+section {
+  display: block;
 }
