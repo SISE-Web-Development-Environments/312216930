@@ -2,6 +2,8 @@ body{
   font-family: Arial,Tahoma,Century gothic, sans-serif;
   margin-top: 10px;
   height: auto;
+  background-size: cover;
+
 }
 
 #topcover
@@ -15,10 +17,17 @@ body{
 	font-weight: bold; 
   width: 100%; 
 }
-section{
-  padding: 40px;
+iframe{
+  text-align: center;
 }
 
+img {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+
+
+}
 li {
   border-right:1px solid white;
   float: left;
@@ -54,6 +63,7 @@ h1 {
 
 #about
 {
+  padding: 40px;
   font-size: 18px;
   text-align: center;
 
