@@ -123,6 +123,33 @@ h1 {
   color: black;
   background: white; 
 }
+h2{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold; 
+  text-decoration: underline;
+}
+ul[id=ans]{
+  box-sizing: border-box;
+  margin-right: 60px ;
+  margin-left: 80px;
+}
+
+ul b{
+  background-color: #4529aa;
+}
+p[id=q]{
+  margin-right: 60px ;
+}
+li[id=first]{
+  margin-right: 50px;
+}
+
+ul[id= secend]{
+  margin-right: 50px;
+
+}
 
 #about
 {
